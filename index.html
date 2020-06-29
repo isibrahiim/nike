@@ -5,19 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slider.css" />
   </head>
   <body>
     <div class="card">
       <div>
         <img src="logo.png" alt="logo" / class="logo">
-        <img src="nikesh.png" alt="nike shoes" class="shoes" />
 
-        <ul class="slider">
-          <li class="red"></li>
-          <li class="green"></li>
-          <li class="blue active"></li>
-          <li class="yellow"></li>
-        </ul>
+        <div class="slider">
+          <input type="radio" name="color" id="red" class="slider__input" />
+          <input type="radio" name="color" id="blue" class="slider__input" />
+          <input type="radio" name="color" id="green" class="slider__input" />
+          <input
+            type="radio"
+            name="color"
+            id="black"
+            class="slider__input"
+            checked
+          />
+
+          <img
+            src="nikesh.png"
+            alt="nike shoes"
+            class="slider__shoes slider__shoes--nike"
+          />
+          <img
+            src="abibas.jpg"
+            alt="abibas shoes"
+            class="slider__shoes slider__shoes--abibas"
+          />
+
+          <img
+            src="uarm.jpg"
+            alt="abibas shoes"
+            class="slider__shoes slider__shoes--abibas"
+          />
+
+          <img
+            src="conv.JPG"
+            alt="abibas shoes"
+            class="slider__shoes slider__shoes--abibas"
+          />
+        </div>
       </div>
 
       <div class="text">
@@ -33,12 +62,13 @@
         <form action="/action_page.php">
           <label for="shoes"></label>
           <select name="shoes" id="">
-            <option value="nike">Nike Air</option>
-            <option value="Nike Air Max"> </option>
+            <option value="nike" disabled selected>Nike Air</option>
+            <option value="Nike Air Max">Abibas </option>
           </select>
 
           <select name="qty" id="">
-            <option value="qty">1</option>
+            <option value="qty" disabled selected>Qty</option>
+            <option value="qty" required>1</option>
             <option value="qty">2</option>
           </select>
           <br /><br />

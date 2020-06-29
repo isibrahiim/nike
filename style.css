@@ -23,12 +23,7 @@ body {
   height: 50px;
 }
 /* the frist div (the Nike shoes)*/
-.shoes {
-  display: flex;
-  width: 350px;
-  height: 250px;
-  padding-left: 15px;
-}
+
 /*the second div */
 .text {
   width: 300px;
@@ -45,26 +40,7 @@ body {
 .star {
   color: #f7bf16;
 }
-
-/*the slider*/
-
-.slider {
-  list-style: none;
-  padding-top: 10px;
-  display: flex;
-}
-
-/*slider list*/
-.slider li {
-  margin-right: 20px;
-  cursor: pointer;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-}
-
-/*slider colors*/
-
+/*
 .blue {
   background: #0f7a94;
 }
@@ -79,10 +55,15 @@ body {
 .green {
   background: #119155;
 }
-/*slider active*/
+
+/*slider active
+
 .active {
   box-shadow: inset 0 0 0 2px #0f7a94, inset 0 0 0 4px #fff;
 }
+
+*/
+
 /*the button of ADD TO CARD*/
 .button {
   font-family: "Montserrat", sans-serif;
@@ -95,4 +76,45 @@ body {
   padding: 10px 20px;
   border-radius: 7px;
   transition: 0.25s;
+}
+
+#red:before {
+  content: "";
+  border: 2px solid red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  left: -1px;
+  top: -2px;
+}
+#blue:before {
+  content: "";
+  border: 2px solid blue;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  left: -1px;
+  top: -2px;
+}
+#green:before {
+  content: "";
+  border: 2px solid rgb(31, 248, 23);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  left: -1px;
+  top: -2px;
+}
+#black:before {
+  content: "";
+  border: 2px solid black;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  left: -1px;
+  top: -2px;
 }
