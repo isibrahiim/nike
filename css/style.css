@@ -8,22 +8,21 @@ body {
   justify-content: center;
 }
 
-/* the main card*/
-
 .card {
   display: flex;
-  background-color: #111a28;
-  width: 680px;
+  background-color: #281111;
+  width: 880px;
   border-radius: 30px;
 }
+
 /* the small nike logo*/
 .logo {
   display: flex;
   width: 105px;
   height: 50px;
 }
-/* the frist div (the Nike shoes)*/
 
+/* the frist div (the Nike shoes)*/
 /*the second div */
 .text {
   width: 300px;
@@ -31,15 +30,18 @@ body {
   color: white;
   padding-left: 20px;
 }
+
 /*the rating*/
 .rating {
   margin-left: 3px;
   margin-bottom: 30px;
 }
+
 /* Rating color*/
 .star {
   color: #f7bf16;
 }
+
 /*
 .blue {
   background: #0f7a94;
@@ -63,7 +65,6 @@ body {
 }
 
 */
-
 /*the button of ADD TO CARD*/
 .button {
   font-family: "Montserrat", sans-serif;
@@ -88,6 +89,7 @@ body {
   left: -1px;
   top: -2px;
 }
+
 #blue:before {
   content: "";
   border: 2px solid blue;
@@ -98,9 +100,10 @@ body {
   left: -1px;
   top: -2px;
 }
+
 #green:before {
   content: "";
-  border: 2px solid rgb(31, 248, 23);
+  border: 2px solid #1ff817;
   width: 15px;
   height: 15px;
   border-radius: 50%;
@@ -108,6 +111,7 @@ body {
   left: -1px;
   top: -2px;
 }
+
 #black:before {
   content: "";
   border: 2px solid black;
